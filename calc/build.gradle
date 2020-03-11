@@ -1,0 +1,8 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "ru.sibsutis.calc"
+
+run {
+    standardInput = System.in
+} 
