@@ -8,11 +8,10 @@ public class main {
     public static void arrlist(FileReader fr,Collection <developer_class> dev) {
         Scanner scn = new Scanner(fr);
         scn.nextLine();
-        developer_class temp = new developer_class();
         for(int i = 0; i < 1_00/*0_000*/; i++) {
+            developer_class temp = new developer_class();
             temp.fromCSV(scn.nextLine());
             dev.add(temp);
-            //System.out.println(dev);
         }
         System.out.println(dev);
     }
@@ -60,6 +59,5 @@ public class main {
     }
     public static void main(String[] args) {
         template();
-        //out_dev();
     }
 }
