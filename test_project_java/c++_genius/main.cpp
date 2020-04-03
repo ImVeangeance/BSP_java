@@ -4,12 +4,13 @@
 #include <random>
 #include "classes_shit.cpp"
 
-void create_csv_basic_file_dev(std::vector <devel> a)
+void create_csv_basic_file_dev(const std::vector <devel>& a)
 {
     std::ofstream file_doer_base_shit;
     file_doer_base_shit.open("../../developers_table.csv");
     if(file_doer_base_shit.is_open())
     {
+        file_doer_base_shit << "\n";
         for(auto & i : a)
         {
             file_doer_base_shit << i.name << "," << i.email << "," << i.prog_lang << ";\n";
@@ -24,6 +25,7 @@ void create_csv_basic_file_man(std::vector <manager> b)
     file_doer_base_shit.open("../../managers_table.csv");
     if(file_doer_base_shit.is_open())
     {
+        file_doer_base_shit << "\n";
         for(auto & i : b)
         {
             file_doer_base_shit << i.name << "," << i.email << "," << i.quality << ";\n";

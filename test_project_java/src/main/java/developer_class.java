@@ -1,23 +1,23 @@
 public class developer_class extends base_parent_user_class implements csv {
-    private String level;
+    private String lang;
 
-    public String getLevel() {
-        return level;
+    public String getLang() {
+        return lang;
     }
 
-    public void setLevel(String level) {
-        this.level = level;
+    public void setLang(String level) {
+        this.lang = level;
     }
-    public developer_class(String name, String email, String level) {
+    public developer_class(String name, String email, String lang) {
         super(name, email);
-        this.level = level;
+        this.lang = lang;
     }
 
     public developer_class() {}
 
     @Override
     public String toCSV() {
-        return getName() + ',' + getEmail() + ',' + getLevel();
+        return getName() + ',' + getEmail() + ',' + getLang();
     }
 
     @Override
@@ -25,15 +25,15 @@ public class developer_class extends base_parent_user_class implements csv {
         var data = str.split(",");
         setName(data[0]);
         setEmail(data[1]);
-        setLevel(data[2]);
+        setLang(data[2]);
     }
 
     @Override
     public String toString() {
-        return "Developer{" +
-                "name='" + getName() + '\'' +
-                "email='" + getEmail() + '\'' +
-                "lang='" + getLevel() + '\'' +
-                '}';
+        return "Developer {" +
+                " name = '" + getName() + '\'' +
+                " email = '" + getEmail() + '\'' +
+                " lang = '" + getLang() + '\'' +
+                " }";
     }
 }

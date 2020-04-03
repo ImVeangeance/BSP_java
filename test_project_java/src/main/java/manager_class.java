@@ -30,10 +30,10 @@ public class manager_class extends base_parent_user_class implements csv {
 
     @Override
     public String toString() {
-        return "Manager{" +
-                "name='" + getName() + '\'' +
-                "email='" + getEmail() + '\'' +
-                "position='" + getPosition() + '\'' +
+        return "Manager {" +
+                "name = '" + getName() + '\'' +
+                "email = '" + getEmail() + '\'' +
+                "position = '" + getPosition() + '\'' +
                 '}';
     }
 }
