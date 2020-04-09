@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7beb0455-4126-449d-84c4-b3b9885ae938" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="server(5)" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="server(5)" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="server(5)" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="server(5)" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aIMIgZqGa4SoQ5ETluuDSbC8jn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="server(5) [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.server(5) [run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="659" y="191" key="#MyServer" timestamp="1586419002164">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="659" y="191" key="#MyServer/0.0.1920.1036@0.0.1920.1036" timestamp="1586419002164" />
+    <state x="419" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586418991136">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="419" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1586418991136" />
+    <state x="769" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1586422408569">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="769" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1036@0.0.1920.1036" timestamp="1586422408569" />
+    <state x="811" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586418834218">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="811" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1586418834218" />
+    <state width="1878" height="274" key="GridCell.Tab.0.bottom" timestamp="1586423570563">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1878" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1586423570563" />
+    <state width="1878" height="274" key="GridCell.Tab.0.center" timestamp="1586423570562">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1878" height="274" key="GridCell.Tab.0.center/0.0.1920.1036@0.0.1920.1036" timestamp="1586423570562" />
+    <state width="1878" height="274" key="GridCell.Tab.0.left" timestamp="1586423570561">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1878" height="274" key="GridCell.Tab.0.left/0.0.1920.1036@0.0.1920.1036" timestamp="1586423570561" />
+    <state width="1878" height="274" key="GridCell.Tab.0.right" timestamp="1586423570562">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1878" height="274" key="GridCell.Tab.0.right/0.0.1920.1036@0.0.1920.1036" timestamp="1586423570562" />
+  </component>
+</project>
