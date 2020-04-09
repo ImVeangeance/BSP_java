@@ -18,7 +18,7 @@ public class custom_thread implements Runnable {
             for(int i = 4; i > 0; i--) {
                 System.out.println("Thread: " + thread_name + ", " + i);
                 // Let the thread sleep for a while.
-                Thread.sleep(50);
+                Thread.sleep(10);
             }
         } catch (InterruptedException e) {
             System.out.println("Thread " +  thread_name + " interrupted.");
@@ -26,12 +26,12 @@ public class custom_thread implements Runnable {
         System.out.println("Thread " +  thread_name + " exiting.");
     }
 
-    public void ads(Collection<developer_class> dev) {
+    public void ads(Collection<developer_class> dev, Integer thr) {
         try {
             FileReader fr = new FileReader("/home/death/Docs/BSP_java/test_project_java/developers_table.csv");
             Scanner scn = new Scanner(fr);
             scn.nextLine();
-            for (int i = 0; i < 1_000_000; i++) {
+            for (int i = 0; i < 1_000_000 / thr; i++) {
                 developer_class temp = new developer_class();
                 temp.fromCSV(scn.nextLine());
                 dev.add(temp);
@@ -42,12 +42,12 @@ public class custom_thread implements Runnable {
         }
     }
 
-    public void start (Collection <developer_class> dev) {
+    public void start (Collection <developer_class> dev, Integer thr) {
         System.out.println("Starting " +  thread_name );
         if ($thread == null) {
             $thread = new Thread (this, thread_name);
             $thread.start ();
-            ads(dev);
+            ads(dev, thr);
         }
     }
 }

@@ -35,13 +35,18 @@ public class main {
         for(int i = 0; i < thread_counts; ++i)
         {
             custom_thread thr = new custom_thread(Integer.toString(i));
-            thr.start(dev);
+            thr.start(dev, thread_counts);
         }
+        //free
         Long end = System.nanoTime();
         System.out.println("Arr List - ADD time from .csv file for" + thread_counts.toString() + "threads -> " + (end - start) / 1_000_000 + "ms");
         //
         System.out.println(dev.size());
-        System.out.println(dev);
+        //System.out.println(dev);
+        for(int i = 0; i < 1_000; ++i)
+        {
+            System.out.println(Integer.toString(i) + " " + ((LinkedList<developer_class>) dev).get(i));
+        }
         start = System.nanoTime();
         Collection <developer_class> dev1 = new LinkedList<>();
         ads(dev1);
